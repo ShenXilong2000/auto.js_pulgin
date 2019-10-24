@@ -52,4 +52,12 @@ while(true){
     {
         text(" 跳过").findOne().click();
     }
+    while(text("跳过 >").exists())
+    {
+        text("跳过 >").findOne().click();
+    }
+    while(text(" 跳转 3s ").exists())
+    {
+        text(" 跳转 3s ").findOne().click();
+    }
 }
